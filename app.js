@@ -39,3 +39,5 @@ app.get('/', (req, res) => res.send("Welcome"))
 
 const PORT = 3333
 app.listen(PORT, () => console.log("Server listening at port" + PORT))
+
+module.exports = app
